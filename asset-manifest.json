@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DenisNascimento04/projeto-mae/static/css/main.06bd7a5f.css",
+    "main.js": "/DenisNascimento04/projeto-mae/static/js/main.e6961b6a.js",
+    "static/media/IMG-7.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-7.ae80642249034fdd2987.jpg",
+    "static/media/IMG-5.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-5.6f38f9e1e6bf600e2052.jpg",
+    "static/media/IMG-0.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-0.34b79c3cb8c78ab660af.jpg",
+    "static/media/IMG-6.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-6.07386d5bcb0934fc7640.jpg",
+    "static/media/IMG-1.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-1.0d71901e47756c1768af.jpg",
+    "static/media/IMG-3.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-3.d59bd588284d82786958.jpg",
+    "static/media/IMG-2.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-2.070fde5aa6fe22bfc452.jpg",
+    "static/media/IMG-4.jpg": "/DenisNascimento04/projeto-mae/static/media/IMG-4.9d4da1b4660f5cd05aa5.jpg",
+    "static/media/heart.png": "/DenisNascimento04/projeto-mae/static/media/heart.6989eedada6511a02317.png",
+    "static/media/wave.png": "/DenisNascimento04/projeto-mae/static/media/wave.e68497afbde30f862124.png",
+    "index.html": "/DenisNascimento04/projeto-mae/index.html",
+    "main.06bd7a5f.css.map": "/DenisNascimento04/projeto-mae/static/css/main.06bd7a5f.css.map",
+    "main.e6961b6a.js.map": "/DenisNascimento04/projeto-mae/static/js/main.e6961b6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06bd7a5f.css",
+    "static/js/main.e6961b6a.js"
+  ]
+}
