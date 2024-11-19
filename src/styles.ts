@@ -4,7 +4,7 @@ export const Container = styled.div`
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidd  en;
+    overflow: hidden;
     .background{
         position: absolute;
         width: 100%;
@@ -294,70 +294,70 @@ export const Container = styled.div`
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                .foto:nth-child(1){
+                    margin-left: -40rem;
+                    transform: rotate(15deg);
+                } 
+                .foto.on:nth-child(1){
+                    margin-left: 0;
+                    transform: rotate(15deg);
+                    /* transition: 5s; */
+                }
+    
+                .foto:nth-child(2){
+                    margin-left: -40rem;
+                    transform: rotate(7deg);
+                    transition-delay: .4s;
+                }
+                .foto.on:nth-child(2){
+                    margin-left: 0;
+                    transform: rotate(7deg);
+                }
+    
+                .foto:nth-child(3){
+                    margin-left: -40rem;
+                    transform: rotate(-11deg);
+                }
+                .foto.on:nth-child(3){
+                    margin-left: 0;
+                    transform: rotate(-11deg);
+                    transition-delay: .6s;
+                }
             }
             .right{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-            }
-            .left .foto:nth-child(1){
-                margin-left: -40rem;
-                transform: rotate(15deg);
-            } 
-            .left .foto.on:nth-child(1){
-                margin-left: 0;
-                transform: rotate(15deg);
-                /* transition: 5s; */
-            }
-
-            .left .foto:nth-child(2){
-                margin-left: -40rem;
-                transform: rotate(7deg);
-                transition-delay: .4s;
-            }
-            .left .foto.on:nth-child(2){
-                margin-left: 0;
-                transform: rotate(7deg);
-            }
-
-            .left .foto:nth-child(3){
-                margin-left: -40rem;
-                transform: rotate(-11deg);
-            }
-            .left .foto.on:nth-child(3){
-                margin-left: 0;
-                transform: rotate(-11deg);
-                transition-delay: .6s;
-            }
-
-            .right .foto:nth-child(1){
-                margin-left: 120%;
-                transform: rotate(-15deg);
-            }
-            .right .foto.on:nth-child(1){
-                margin-left: 43%;
-                transform: rotate(-15deg);
+                .foto:nth-child(1){
+                    margin-left: 120%;
+                    transform: rotate(-15deg);
+                }
+                .foto.on:nth-child(1){
+                    margin-left: 43%;
+                    transform: rotate(-15deg);
+                }
+    
+                .foto:nth-child(2){
+                    margin-left: 120%;
+                    transform: rotate(-7deg);
+                }
+                .foto.on:nth-child(2){
+                    margin-left: 43%;
+                    transform: rotate(-7deg);
+                    transition-delay: .4s;
+                }
+    
+                .foto:nth-child(3){
+                    margin-left: 120%;
+                    transform: rotate(11deg);
+                }
+                .foto.on:nth-child(3){
+                    margin-left: 43%;
+                    transform: rotate(11deg);
+                    transition-delay: .6s;
+                }
             }
 
-            .right .foto:nth-child(2){
-                margin-left: 120%;
-                transform: rotate(-7deg);
-            }
-            .right .foto.on:nth-child(2){
-                margin-left: 43%;
-                transform: rotate(-7deg);
-                transition-delay: .4s;
-            }
-
-            .right .foto:nth-child(3){
-                margin-left: 120%;
-                transform: rotate(11deg);
-            }
-            .right .foto.on:nth-child(3){
-                margin-left: 43%;
-                transform: rotate(11deg);
-                transition-delay: .6s;
-            }
 
             .mid{
                 display: flex;
@@ -376,18 +376,15 @@ export const Container = styled.div`
                 gap: 2rem;
                 transition: 1s;
                 margin-top: 0;
-            }
-            .mid.on .foto:nth-child(1){
-            }
-            .mid.on .foto:nth-child(2){
-                /* height: 40%; */
-            }
-            .mid.on .foto:nth-child(2) img{
-                height: 350px;
+                .foto:nth-child(1){
+                }
+                .foto:nth-child(2) img{
+                    height: 24rem;
+                }
             }
             .foto{
                 display: flex;
-                width: 330px;
+                width: 24rem;
                 flex-direction: column;
                 gap: 2rem;
                 padding: 2rem 1.4rem 3rem 1.4rem;
@@ -398,7 +395,7 @@ export const Container = styled.div`
             }
             .foto img{
                 width: 100%;
-                height: 250px;
+                height: 16rem;
                 object-fit: cover;
             }
         }
@@ -409,64 +406,68 @@ export const Container = styled.div`
             height: 100%;
             /* opacity: 1; */
             /* transition: 1s; */
-            .left .foto:nth-child(1){
-                margin-left: -40rem;
-                transform: rotate(15deg);
-                transition: 1s;
-            } 
-            .left .foto.on:nth-child(1){
-                margin-left: 0;
-                transform: rotate(15deg);
-                /* transition: 5s; */
-            }
+            .left{
 
-            .left .foto:nth-child(2){
-                margin-left: -40rem;
-                transform: rotate(7deg);
-                transition-delay: .4s;
+                .foto:nth-child(1){
+                    margin-left: -40rem;
+                    transform: rotate(15deg);
+                    transition: 1s;
+                } 
+                .foto.on:nth-child(1){
+                    margin-left: 0;
+                    transform: rotate(15deg);
+                    /* transition: 5s; */
+                }
+    
+                .foto:nth-child(2){
+                    margin-left: -40rem;
+                    transform: rotate(7deg);
+                    transition-delay: .4s;
+                }
+                .foto.on:nth-child(2){
+                    margin-left: 0;
+                    transform: rotate(7deg);
+                }
+    
+                .foto:nth-child(3){
+                    margin-left: -40rem;
+                    transform: rotate(-11deg);
+                }
+                .foto.on:nth-child(3){
+                    margin-left: 0;
+                    transform: rotate(-11deg);
+                    transition-delay: .6s;
+                }
             }
-            .left .foto.on:nth-child(2){
-                margin-left: 0;
-                transform: rotate(7deg);
-            }
-
-            .left .foto:nth-child(3){
-                margin-left: -40rem;
-                transform: rotate(-11deg);
-            }
-            .left .foto.on:nth-child(3){
-                margin-left: 0;
-                transform: rotate(-11deg);
-                transition-delay: .6s;
-            }
-
-            .right .foto:nth-child(1){
-                margin-left: 120%;
-                transform: rotate(-15deg);
-            }
-            .right .foto.on:nth-child(1){
-                margin-left: 43%;
-                transform: rotate(-15deg);
-            }
-
-            .right .foto:nth-child(2){
-                margin-left: 120%;
-                transform: rotate(-7deg);
-            }
-            .right .foto.on:nth-child(2){
-                margin-left: 43%;
-                transform: rotate(-7deg);
-                transition-delay: .4s;
-            }
-
-            .right .foto:nth-child(3){
-                margin-left: 120%;
-                transform: rotate(11deg);
-            }
-            .right .foto.on:nth-child(3){
-                margin-left: 43%;
-                transform: rotate(11deg);
-                transition-delay: .6s;
+            .right{
+                .foto:nth-child(1){
+                    margin-left: 120%;
+                    transform: rotate(-15deg);
+                }
+                .foto.on:nth-child(1){
+                    margin-left: 43%;
+                    transform: rotate(-15deg);
+                }
+    
+                .foto:nth-child(2){
+                    margin-left: 120%;
+                    transform: rotate(-7deg);
+                }
+                .foto.on:nth-child(2){
+                    margin-left: 43%;
+                    transform: rotate(-7deg);
+                    transition-delay: .4s;
+                }
+    
+                .foto:nth-child(3){
+                    margin-left: 120%;
+                    transform: rotate(11deg);
+                }
+                .foto.on:nth-child(3){
+                    margin-left: 43%;
+                    transform: rotate(11deg);
+                    transition-delay: .6s;
+                }
             }
 
             .mid{

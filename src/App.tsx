@@ -159,7 +159,7 @@ function App() {
             Nunca se esqueça...Eu te amo MUITO!!!
           </p>
           <p>
-            Minha melhor amiga, minha mãe, minha inspiração e meu motivo de levantar todos os dias e não desistir te tudo.
+            Minha melhor amiga, minha mãe, minha inspiração e meu motivo de levantar todos os dias e não desistir de tudo.
           </p>
           <p>
             Ah...e não se preocupe serei mais criativo nas próximas lembrancinhas como essa kkkkkk.
@@ -186,8 +186,10 @@ function App() {
             <div className="foto">
               <img src={PT2_IMG7} alt="" />
             </div>
-            <h1>TE AMO MOZONAAAA!!!!</h1>
-            <h1>ESPERO QUE GOSTE!&#129392;</h1>
+            <div>
+              <h1>TE AMO MOZONAAAA!!!!</h1>
+              <h1>ESPERO QUE GOSTE!&#129392;</h1>
+            </div>
           </div>
 
           <div className='right'>
