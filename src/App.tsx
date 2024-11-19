@@ -117,10 +117,10 @@ function App() {
       </div>
 
       <div className={`parte-1 ${parte1 ? "on" : "off"}`}>
-        <div className={`mensagens ${mensagem? "on" : "off"} ${troca? 'troca' : ''}`} style={{ maxWidth: mensgemPricipal.img.length > 1 ? 600 : 400 }}>
-          <div className="imgs">
+        <div className={`mensagens ${mensagem? "on" : "off"} ${troca? 'troca' : ''}`}>
+          <div className="imgs" style={{ flex: mensgemPricipal.img.length > 1 ? 2 : 1}}>
             {mensgemPricipal.img.map((item, index) => (
-              <img src={item} alt="img1" style={{ objectPosition: index === 1? 'top' : ''}} />
+              <img src={item} alt="img1" style={{ flex: mensgemPricipal.img.length > 1 ? 2 : 1,objectPosition: index === 1? 'top' : ''}} />
             ))}
           </div>
           <p>{mensgemPricipal.text}</p>
